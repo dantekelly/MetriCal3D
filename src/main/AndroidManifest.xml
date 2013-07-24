@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.metrical3d"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.metrical3d.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+    <!-- Required permission to check licensing. -->
+    <uses-permission android:name="com.android.vending.MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxpOcPh/Kf+DWS7PMzYf1fQrwyY4jSRhlTneXDfsHWYHBeg7XOeupFUkeigykLJIFyv71m6JuJkJQVLddnh8NDh941MAqs7row+zdTHHtVpDuYaTOmVA5wf8lKcQqtQR3fUr98PWnfU0mCkmSeFoVZX4dW+j/8nRSFyXyv5U2edSFyhgIJilwvCqeYjM2uu5TEeHLnYRSnfBmIxIoGIV2u1c1T3IWrIntJFeSgZ7YSI+tkpWxSSdVaEte88QyBznuRkILTl9uqwj3eK+rhu8GUMafCBNNbFIv8UiapR5Z5mGeGsHBAwetK1V8MhRqUtAjiK5QGqc7EUawKpV93Wc5TQIDAQAB" />
+
+</manifest>
