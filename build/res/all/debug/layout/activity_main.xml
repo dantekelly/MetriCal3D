@@ -16,9 +16,10 @@
             android:id="@+id/editText"
             android:singleLine="true"
             android:numeric="integer"
-            android:layout_below="@+id/textView3"
-            android:layout_alignParentRight="true"
-            android:textAlignment="inherit"/>
+            android:textAlignment="inherit"
+            android:minLines="1"
+            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/textView8"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -26,7 +27,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Length(mm)"
             android:id="@+id/textView3"
-            android:layout_below="@+id/editText4"
+            android:layout_below="@+id/editText"
             android:layout_alignLeft="@+id/textView4"/>
 
     <TextView
@@ -120,9 +121,9 @@
             android:layout_height="wrap_content"
             android:text="Cost per KG"
             android:id="@+id/textView4"
-            android:layout_below="@+id/editText"
-            android:layout_toRightOf="@+id/textView6"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginLeft="12dp"
+            android:layout_below="@+id/editText2"
+            android:layout_toRightOf="@+id/textView6"/>
 
     <EditText
             android:layout_width="wrap_content"
@@ -130,10 +131,11 @@
             android:id="@+id/editText2"
             android:numeric="integer"
             android:singleLine="true"
-            android:layout_below="@+id/textView4"
-            android:layout_alignRight="@+id/editText"
-            android:layout_alignLeft="@+id/editText"
-            android:textAlignment="inherit"/>
+            android:textAlignment="inherit"
+            android:minLines="1"
+            android:layout_below="@+id/textView3"
+            android:layout_alignLeft="@+id/editText4"
+            android:layout_alignRight="@+id/editText"/>
 
     <Button
             android:layout_width="wrap_content"
@@ -174,11 +176,12 @@
             android:id="@+id/editText4"
             android:singleLine="true"
             android:numeric="integer"
-            android:layout_below="@+id/textView2"
-            android:layout_alignLeft="@+id/editText"
             android:textAlignment="inherit"
             android:maxLength="4"
-            android:layout_alignRight="@+id/editText3"/>
+            android:minLines="1"
+            android:layout_below="@+id/textView4"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_alignRight="@+id/editText"/>
 
     <TextView
             android:layout_width="wrap_content"

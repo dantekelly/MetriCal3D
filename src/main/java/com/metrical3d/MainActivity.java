@@ -42,9 +42,9 @@ public class MainActivity extends Activity {
     Button.OnClickListener buttonAddOnClickListener  = new Button.OnClickListener(){    //Defines Button as action
 
         public void onClick(View arg0) {                                                 //Handles the action
-            TextCost = (EditText)findViewById(R.id.editText2);                                                     //Assigns Variables to GUI Items
-            TextLength = (EditText)findViewById(R.id.editText);                                                    //Assigns Variables to GUI Items
-            TextDiameter = (EditText)findViewById(R.id.editText4);                                                 //Assigns Variables to GUI Items
+            TextCost = (EditText)findViewById(R.id.editText4);                                                     //Assigns Variables to GUI Items
+            TextLength = (EditText)findViewById(R.id.editText2);                                                    //Assigns Variables to GUI Items
+            TextDiameter = (EditText)findViewById(R.id.editText);                                                 //Assigns Variables to GUI Items
             TextTotal = (EditText)findViewById(R.id.editText3);                                                    //Assigns Variables to GUI Items
             TextWeight = (EditText)findViewById(R.id.editText5);                                                   //Assigns Variables to GUI Items
             RadButtonABS = (RadioButton)findViewById(R.id.RadButtonABS);                                           //Assigns Variables to GUI Items
